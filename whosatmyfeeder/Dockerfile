@@ -24,7 +24,7 @@ COPY rootfs /
 RUN mkdir /usr/app
 WORKDIR /usr/app
 RUN apt-get update && apt-get -y -o Dpkg::Options::="--force-confnew" install nginx
-RUN git clone https://github.com/bertybuttface/WhosAtMyFeeder .
+RUN git clone https://github.com/nicholasmparker/WhosAtMyFeeder .
 
 ENV CONFIG_PATH="/data/config.yaml"
 
