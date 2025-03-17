@@ -14,7 +14,6 @@ panel_title: "Who's At My Feeder?"
 init: false
 map:
   - share:rw
-image: "ghcr.io/bertybuttface/{arch}-addon-whosatmyfeeder"
 options:
   frigate:
     frigate_url: "http://ccab4aaf-frigate:5000"
